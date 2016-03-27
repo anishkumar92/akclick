@@ -1,0 +1,42 @@
+body {
+padding-top: 0px;
+}
+
+
+div{
+	padding-top:0px;
+	
+}
+.carousel {
+  margin-bottom: 60px;
+ /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  margin-top: -20px;
+  /* max-height:900px; */
+  
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+/* .carousel .item {
+  min-height: 200px;
+  background-color: white;
+} */
+
+.carousel-inner > .item > img {
+ /*  width: 100%;
+  display: block;
+  max-width: 100%; */
+  size:cover;	
+}
+.btn-fill {
+  width: 100%;
+  white-space: normal;
+}
+/* .carousel-control{
+	max-height: 100%;
+
+} */
